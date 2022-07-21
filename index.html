@@ -1,1 +1,55 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="App.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="main" id="reg">
+        <h1 class="heading">REGISTER FORM</h1>
+        <div class="input">
+            
+            <input type="text" id="text1" class="inp" placeholder="username" name="name" required><br><br>
+            <input type="password" id="text2" minlength="6" class="inp" placeholder="password" name="password" required><br><br>
+            <input type="tel" maxlength="10" minlength="10" id="text3" class="inp" placeholder="phone number" name="phone" required><br><br>
+            <input type="email" id="text4" class="inp" placeholder="email" name="email" required><br><br>
+             <input type="submit" value="SING-UP" onclick="register()" class="btn"/>
+    
+            </div>
+    </div>
+        <div class="main" id="log">
+            <h1 class="heading">LOGIN FORM</h1>
+            <div class="input">
+                <input type="text" id="logtext1" class="inp" placeholder="username" required><br><br>
+                <input type="password" id="logtext2" class="inp" placeholder="password" required><br><br>
+                 <input type="submit" value="LOG-IN" onclick="login()" class="btn"/>
+            </div>
+           
+        </div>
+        <div class="main" id="a1">
+            <h1 class="heading">authentication 1</h1>
+            <div class="input">
+            <p>authentication is a security feature that helps protect your account in addition to your password.<br>authentication has been started please fill your phone number**** to verify your authentication.</p>
+            <label>ENTER YOUR PHONE NUMBER:-*</label>
+            <input class="inp" id="a1text" type="tel" maxlength="10" required/>
+            <input type="checkbox" class="ck" value="you are sure this number is correct" required> <p >you are sure this number is correct</p>
+            <input type="submit" value="verify" onclick="a1()" class="btn"/>
+            </div>
+        </div>
+        <div class="main" id="a2">
+            <h1 class="heading">authentication 2</h1>
+            <div class="input">
+            <p>authentication is a security feature that helps protect your account in addition to your password.<br>authentication has been started please fill your email address*** to verify your authentication.</p>
+            <label>ENTER YOUR EMAIL ID:-*</label>
+            <input class="inp" id="a2text" type="email" required>
+            
+            <input type="checkbox" class="ck" value="you are sure this id is correct" required> <p >you are sure this id is correct</p>
+            <input type="submit" value="verify" onclick="a2()" class="btn"/>
+            </div>
+        </div>
+</body>
+</html>
