@@ -1,1 +1,87 @@
+html{
+  height: 100%;
+}
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-image: url(https://wallpaperaccess.com/full/4893666.jpg);
+  /* background-repeat: no-repeat; */
+}
+.heading{
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: red;
+  text-shadow: 2px 1px;
+}
+.input{
+align-self: flex-start;
+display: grid;
+justify-items: center;
+align-items: center;
 
+}
+.main{
+
+display: grid;
+justify-self: center;
+align-self: center;
+height: 70%;
+width: 50%;
+position:absolute;
+background-image: url(https://p4.wallpaperbetter.com/wallpaper/208/624/847/technology-hacker-wallpaper-preview.jpg);
+border-radius: 15px;
+box-shadow:5px 5px 5px 2px black;
+border: solid rgb(193, 13, 13);
+background-repeat:no-repeat ;
+background-size: 800px 700px;
+}
+.text{
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+}
+.inp{
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(20, 119, 158);
+  /* margin-top: 20px; */
+  padding: 10px;
+  width: 500px;
+  border: solid rgb(192, 8, 8);
+}
+.btn{
+  border: solid rgb(14, 11, 11);
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-weight: bold;
+  box-shadow: 3px 3px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXA4ZOU-9lvaWXEsTY05hB3p5sDpTZEDwrRrqRvPB2zNsiog9rFqaPY6hdJDtL-yehnRo&usqp=CAU);
+  width: 150px;
+  padding: 10px ;
+  margin-top: 20px;
+}
+::placeholder{
+  color: black;
+}
+p{
+  text-align: center;
+  text-transform: lowercase;
+  text-decoration: solid;
+  font-weight: bold;
+  /* margin-bottom: 350px; */
+}
+.ck{
+  margin-top: 20px;
+}
+#log,#a1,#a2{
+   visibility: hidden;
+}
+#reg{
+  visibility: visible;
+}
